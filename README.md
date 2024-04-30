@@ -16,13 +16,16 @@ Getting Started:
 
 NVMExplorer relies on an extended and modified version of NVSim
 
-Be sure to clone this repository with ``git clone --recurse-submodules https://github.com/lpentecost/NVMExplorer''
+Be sure to clone this repository with:
+```sh
+git clone --recurse-submodules https://github.com/lpentecost/NVMExplorer
+```
 
 After cloning, compile nvsim_src:
-
-> cd nvmexplorer_src/nvsim_src
->
-> make
+```sh
+cd nvmexplorer_src/nvsim_src
+make
+```
 
 Prior to running NVMExplorer, please verify you are using Python 3.X and have the following packages available:
 - pandas
@@ -32,7 +35,9 @@ Please see additional documentation for tutorials, fault injection setup, and mo
 
 Usage:
 ---------------------
-> python run.py config/[config name].json
+```sh
+python run.py config/[config name].json
+```
 
 Documentation and Data Visualizations:
 ---------------------
