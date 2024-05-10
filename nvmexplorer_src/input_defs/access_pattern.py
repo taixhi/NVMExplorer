@@ -8,7 +8,7 @@ class PatternConfig:
                 total_reads=-1, #total number of reads, can compute either way
 		read_size=8, #size/read in bytes
 		write_freq=-1, #number of writes/s
-                total_writes=-1, #total number of reads, can compute either way
+                total_writes=-1, #total number of writes, can compute either way
 		write_size=8, #size/write in bytes
 		workingset=1, #total working set size in MB
 		total_ins=-1 #total number of ins in benchmark
